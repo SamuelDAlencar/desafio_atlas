@@ -1,12 +1,15 @@
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import User from './pages/User';
 import './App.css';
 
 function App() {
   return (
-    <main>
-      <h1>
-        Initial H1
-      </h1>
-    </main>
+    <Routes>
+      <Route path="/" element={ <Home /> } />
+      <Route path="/user" element={ <User /> } />
+    </Routes>
   );
 }
 

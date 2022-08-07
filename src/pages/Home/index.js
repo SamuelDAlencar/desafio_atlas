@@ -44,7 +44,7 @@ export default function Home() {
       try {
         const user = await axios.get(`https://api.github.com/users/${input}`);
 
-        setUser(user);
+        setUser(user.data);
 
         navigate(`/user/${input}/repos`);
       } catch (error) {

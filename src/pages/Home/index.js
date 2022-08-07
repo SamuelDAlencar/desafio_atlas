@@ -58,6 +58,7 @@ export default function Home() {
   return (
     <>
       <main className='home_main'>
+        <p className='home_p'>Buscar Repositório no Github</p>
         <section className='home_searchSection'>
           <input
             className='home_searchSection_input'

@@ -4,23 +4,27 @@
 }
 
 .user_profile_section {
-  margin: 8% 5% 5%;
+  margin: 30px 50px 50px;
   width: 50%;
   max-width: 280px;
   border-bottom: 0.1px solid #2a2d30;
 }
 
+.user_profile_section span {
+  color: #8b949e;
+}
+
 .user_thumb_img {
   width: 40%;
   border-radius: 50%;
-  width: 90%;
-  max-width: 350px;
+  max-width: 340px;
   border: 1px solid #4e5053;
+  position: absolute;
 }
 
 .user_name_h1 {
   color: #c9d1d9;
-  margin: 5% 0 1%;
+  margin: 130% 0 1%;
 }
 
 .user_username_p {
@@ -72,6 +76,8 @@
 .user_blog_section {
   display: flex;
   margin: 8% 0;
+  padding-bottom: 15px;
+  border-bottom: 0.1px solid #2a2d30;
 }
 
 .user_blog_p {
@@ -89,4 +95,86 @@
 
 .user_reps_section {
   width: 50%;
+  margin-top: 70px;
+}
+
+.user_header {
+  color: #c9d1d9;
+  position: fixed;
+  border-bottom: 0.1px solid #2a2d30;
+  background-color: #0d1117;
+  width: 100%;
+}
+
+.user_header_h3 {
+  height: 30px;
+  border-bottom: 2px solid #f78166;
+  padding: 1.5%;
+  width: fit-content;
+  margin-left: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.user_header_svg {
+  fill: #8b949e;
+  width: 40px;
+  margin: 0 8% 0 0;
+}
+
+.user_rep_section {
+  padding: 8% 0;
+  border-top: 1px solid #2a2d30;
+  border-bottom: 1px solid #2a2d30;
+}
+
+.user_repTitle_a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.user_repTitle_a:hover {
+  text-decoration: underline;
+}
+
+.user_repDescription_p {
+  margin: 3% 0;
+  color: #8b949e;
+}
+
+.user_repTopics_section {
+  display: flex;
+  margin: 5% 0 1%;
+}
+
+.user_repTopic_p {
+  font-size: 80%;
+  color: #58a6ff;
+  padding: 1.5%;
+  margin: 0 0.5%;
+  width: fit-content;
+  background-color: #172b42;
+  border-radius: 50px;
+}
+
+.user_repTopic_p:hover {
+  color: #ffffff;
+  background-color: #1363be;
+  cursor: pointer;
+}
+
+.user_repLanguage_p {
+  font-size: 90%;
+  margin: 3% 0 0;
+  color: #8b949e;
+}
+
+.user_rep_section span {
+  margin: 0 0 0 3%;
+  padding: 1% 1.5%;
+  border-radius: 45px;
+  border: 1px solid #2a2d30;
+  color: #8b949e;
+  font-size: 90%;
 }

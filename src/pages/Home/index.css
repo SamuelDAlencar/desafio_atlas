@@ -4,7 +4,7 @@ body {
 
 .home_main {
   width: 60%;
-  max-width: 800px;
+  max-width: 850px;
   text-align: center;
   position: absolute;
   top: 40%;
@@ -21,7 +21,7 @@ body {
 .home_searchSection_input {
   width: 100%;
   padding: 3%;
-  font-size: 150%;
+  font-size: 160%;
   border: 1px solid black;
   border-radius: 15px 0 0 15px;
   background-color: rgb(31, 31, 31);
@@ -45,18 +45,39 @@ body {
   font-size: 150%;
   border: 0;
   border-radius: 0 15px 15px 0;
-  padding: 3%;
+  padding: 1% 2%;
   background-color: #495057;
   color: rgb(230, 230, 230);
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-.home_searchSection_button:disabled {
-  background-color: #343a40;
-  color: rgb(182, 182, 182);
-  cursor: default;
+.home_searchSection_button:active {
+  font-size: 149%;
+  background-color: #495057;
+  color: rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.home_icon_img {
+  width: 30px;
+  margin-right: 10px;
 }
 
 .home_searchSection_warning_h2 {
   color: rgb(221, 115, 115);
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;  
+}
+::-moz-placeholder {
+  font-style: italic;  
+}
+:-ms-input-placeholder {  
+  font-style: italic; 
 }

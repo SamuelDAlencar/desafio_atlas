@@ -1,25 +1,92 @@
 .user_main {
   display: flex;
+  justify-content: space-around;
 }
 
 .user_profile_section {
-  padding: 5%;
+  margin: 8% 5% 5%;
+  width: 50%;
+  max-width: 280px;
+  border-bottom: 0.1px solid #2a2d30;
 }
 
 .user_thumb_img {
   width: 40%;
   border-radius: 50%;
-  width: 100%;
+  width: 90%;
+  max-width: 350px;
+  border: 1px solid #4e5053;
 }
 
 .user_name_h1 {
-  color: rgb(230, 230, 230);
+  color: #c9d1d9;
+  margin: 5% 0 1%;
 }
 
-.user_username_h2 {
-  color: rgb(230, 230, 230);
+.user_username_p {
+  color: #8b949e;
+  font-size: 150%;
+  margin: 0;
+}
+
+.user_bio_p {
+  color: #c9d1d9;
+  margin: 8% 0;
+}
+
+.user_follow_button {
+  font-size: 15px;
+  color: #c9d1d9;
+  border: 1px solid #4e5053;
+  background-color: #292c30;
+  padding: 3.5%;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.user_follow_button:hover {
+  border: 1px solid #9da1a7;
+  background-color: #393d42;
+}
+
+.user_follow_section {
+  display: flex;
+  margin: 8% 0;
+}
+
+.user_follow_p {
+  color: #8b949e;
+}
+
+.user_follow_p b {
+  color: #c9d1d9;
+}
+
+.user_follow_svg {
+  fill: #8b949e;
+  margin: 0 1%;
+}
+
+.user_blog_section {
+  display: flex;
+  margin: 8% 0;
+}
+
+.user_blog_p {
+  color: #c9d1d9;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.user_blog_svg {
+  fill: #8b949e;
+  width: 25px;
+  margin: 0 2% 0 0;
 }
 
 .user_reps_section {
-
+  width: 50%;
 }

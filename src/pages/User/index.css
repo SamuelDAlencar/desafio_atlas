@@ -8,6 +8,8 @@
   width: 50%;
   max-width: 280px;
   border-bottom: 0.1px solid #2a2d30;
+  height: fit-content;
+  padding-bottom: 50px;
 }
 
 .user_profile_section span {
@@ -104,11 +106,18 @@
 .user_header_h3 {
   height: 30px;
   border-bottom: 2px solid #f78166;
+  border-radius: 15px 15px 0 0;
   padding: 1.5%;
   width: fit-content;
   margin-left: 50%;
   display: flex;
   align-items: center;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.user_header_h3:hover {
+  background-color: #272a2e;
+  cursor: pointer;
 }
 
 .user_header_svg {
@@ -121,6 +130,7 @@
   padding: 4% 0;
   border-top: 1px solid #2a2d30;
   border-bottom: 1px solid #2a2d30;
+  height: fit-content;
 }
 
 .user_repSubInfos_section {
@@ -142,7 +152,7 @@
 }
 
 .user_repDescription_p {
-  margin: 3% 0;
+  margin: 3% 0 0;
   color: #8b949e;
 }
 

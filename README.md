@@ -17,7 +17,7 @@ Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em um
 
 Para clonar o projeto e obter acesso ao código em sua máquina, rode o seguinte comando no terminal: `git clone git@github.com:SamuelDAlencar/desafio_atlas.git`;
 
-Caso queira acessar a aplicação somente no browser: https://atlas-test-front.herokuapp.com/
+*Caso queira acessar a aplicação somente no browser: https://atlas-test-front.herokuapp.com/*
 
 - Na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
 

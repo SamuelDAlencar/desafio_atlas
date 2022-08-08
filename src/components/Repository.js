@@ -26,7 +26,7 @@ export default function Repository({ repository }) {
         <span>Public</span>
       </section>
       <p className='user_repDescription_p'>{repository.description}</p>
-      {repository.topics &&
+      {repository.topics.length > 0 &&
         <section className='user_repTopics_section'>
           {repository.topics.map((topic, i) => {
             return <p key={i} className='user_repTopic_p'>{topic}</p>;

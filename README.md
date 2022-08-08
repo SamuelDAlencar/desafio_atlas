@@ -28,3 +28,4 @@ Para clonar o projeto e obter acesso ao código em sua máquina, rode o seguinte
 - Projeto desenvolvido com o padrão de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - Branches nomeadas em inglês, mas commits feitos em Português
 - Todos os SVGs utilizados foram retirados diretamente da página oficial do [Github](https://github.com/)
+- Gerenciamento de estado da aplicação feito utilizando ContextAPI

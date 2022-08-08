@@ -19,7 +19,7 @@ Para clonar o projeto e obter acesso ao código em sua máquina, rode o seguinte
 
 **Caso queira acessar a aplicação somente no browser: https://atlas-test-front.herokuapp.com/**
 
-- Na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
+- **Forma de utilizar:** na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
 
 ## 📦 Desenvolvimento
 

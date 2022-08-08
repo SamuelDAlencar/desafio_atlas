@@ -7,7 +7,7 @@
 
 .user_profile_section {
   margin: 30px 50px 50px;
-  width: 40%;
+  width: 50%;
   max-width: 280px;
   border-bottom: 0.1px solid #2a2d30;
   height: fit-content;
@@ -93,7 +93,7 @@
 }
 
 .user_reps_section {
-  width: 60%;
+  width: 50%;
   margin-top: 70px;
 }
 
@@ -111,7 +111,7 @@
   border-radius: 15px 15px 0 0;
   padding: 1.5%;
   width: fit-content;
-  margin-left: 40%;
+  margin-left: 50%;
   display: flex;
   align-items: center;
   transition: all 0.1s ease-in-out 0s;

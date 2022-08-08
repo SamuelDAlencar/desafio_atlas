@@ -4,8 +4,22 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from './helpers/renderWithRouter';
+import axios from 'axios';
+import MockAdapter from 'axios-mock-adapter';
+import mockValidUser from './mocks/validUser';
+import mockInvalidUser from './mocks/invalidUser';
 
 describe('Home - Página de pesquisa', () => {
+  let mock;
+
+  beforeAll(() => {
+    mock = new MockAdapter(axios);
+  });
+
+  afterEach(() => {
+    mock.reset();
+  });
+
   it('Texto descritivo ("Buscar Repositório no Github")', () => {
     renderWithRouter(<App />);
 
@@ -14,7 +28,6 @@ describe('Home - Página de pesquisa', () => {
     expect(text).toBeInTheDocument();
     expect(text).toBeVisible();
   });
-
 
   it('Botão de pesquisa do usuário com o texto "search"', () => {
     renderWithRouter(<App />);
@@ -39,8 +52,11 @@ describe('Home - Página de pesquisa', () => {
 
   it('Ao clicar no botão de pesquisa com o input preenchido, mas buscando um usuário inexistente, deve ser acionado um aviso de erro', async () => {
     renderWithRouter(<App />);
+
+    mock.onGet('https://api.github.com/users/invalidUser').reply(404, mockInvalidUser);
+
     const input = screen.getByTestId('search_input');
-    const invalidUser = 'invalid9a9a9a9a9a9a9a9a9a9a9a9a9aa9invalid';
+    const invalidUser = 'invalidUser';
     userEvent.type(input, invalidUser);
 
     const searchButton = screen.getByTestId('search_button');
@@ -52,12 +68,14 @@ describe('Home - Página de pesquisa', () => {
   });
 
 
-  it('Testa se há um input de busca em que, caso seja passado um usuário válido, a página redireciona o usuário para a tela de perfil', () => {
+  it('Testa se há um input de busca em que, caso seja passado um usuário válido, a página redireciona o usuário para a tela de perfil', async () => {
     renderWithRouter(<App />);
+
+    mock.onGet('https://api.github.com/users/user123').reply(200, mockValidUser);
 
     const input = screen.getByTestId('search_input');
     const searchButton = screen.getByTestId('search_button');
-    const user = 'namexbalboa';
+    const user = 'user123';
 
     expect(input).toBeInTheDocument();
     expect(input).toBeVisible();
@@ -67,9 +85,10 @@ describe('Home - Página de pesquisa', () => {
 
     userEvent.click(searchButton);
 
-    setTimeout(() => {
-      expect(location.href).toContain(`/user/${user}/reps`);
-    }, 5000);
+    const repositoriesField = await screen.findByText('Repositories');
+
+    expect(repositoriesField).toBeInTheDocument();
+
   });
 });
 

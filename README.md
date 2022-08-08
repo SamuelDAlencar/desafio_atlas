@@ -9,25 +9,30 @@ Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em um
 Rodar o projeto no localhost **sem Docker**
 
 ```
-// clona o projeto em sua máquina
+// Clona o projeto em sua máquina
 git clone git@github.com:SamuelDAlencar/desafio_atlas.git
 
-// instala as dependências
+// Instala as dependências
 npm install
 
-// inicia a aplicação na porta 3000 (http://localhost:3000/)
+// Inicia a aplicação na porta 3000 (http://localhost:3000/)
 npm start
 ```
 
 Rodar o projeto no localhost **utilizando Docker**
 
 ```
-// clona o projeto em sua máquina
+// Clona o projeto em sua máquina
 git clone git@github.com:SamuelDAlencar/desafio_atlas.git
 
-// levanta o container já inicializando a aplicação na mesma porta 3000
+// Levanta o container já inicializando a aplicação na mesma porta 3000
 docker-compose up
+
+// Caso queira rodar o container desacoplado
+docker-compose up -d
 ```
+
+> Caso dê algum erro após rodar `npm start` ou ao final do `docker-compose up`, confira se não há nenhuma aplicação rodando na porta `3000` 
 
 - **Comportamento da página:** na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
 

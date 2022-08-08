@@ -173,6 +173,12 @@
   color: #8b949e;
 }
 
+.user_rep_svg {
+  fill: #8b949e;
+  width: 12px;
+  margin: 0px 5px 0;
+}
+
 .user_rep_section span {
   margin: 0 0 0 3%;
   padding: 1% 1.5%;

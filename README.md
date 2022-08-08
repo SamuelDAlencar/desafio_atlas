@@ -6,7 +6,21 @@ Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em um
 
 **Caso queira acessar a aplicação somente no browser: https://atlas-test-front.herokuapp.com/**
 
-Para clonar o projeto e obter acesso ao código em sua máquina **sem fazer uso do Docker**, rode o seguinte comando no terminal: `git clone git@github.com:SamuelDAlencar/desafio_atlas.git`, e então, dentro da pasta do projeto rode o comando `npm install` para instalar as dependências e em seguida `npm start`;
+Rodar o projeto no localhost **sem Docker**
+```
+git clone git@github.com:SamuelDAlencar/desafio_atlas.git
+
+npm install
+
+npm start
+```
+
+Rodar o projeto no localhost **utilizando Docker**
+```
+git clone git@github.com:SamuelDAlencar/desafio_atlas.git
+
+docker-compose up
+```
 
 - **Comportamento da página:** na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
 

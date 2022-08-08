@@ -7,8 +7,8 @@ Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em um
 **Caso queira acessar a aplicação somente no browser: https://atlas-test-front.herokuapp.com/**
 
 Rodar o projeto no localhost **sem Docker**
-```
 
+```
 // clona o projeto em sua máquina
 git clone git@github.com:SamuelDAlencar/desafio_atlas.git
 
@@ -20,8 +20,8 @@ npm start
 ```
 
 Rodar o projeto no localhost **utilizando Docker**
-```
 
+```
 // clona o projeto em sua máquina
 git clone git@github.com:SamuelDAlencar/desafio_atlas.git
 

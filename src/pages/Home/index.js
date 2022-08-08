@@ -64,11 +64,14 @@ export default function Home() {
             className='home_searchSection_input'
             placeholder='Nome do usuário no GitHub'
             value={input}
-            onChange={handleChange} />
+            onChange={handleChange}
+            data-testid='search_input'
+          />
 
           <button
             className='home_searchSection_button'
             onClick={handleClick}
+            data-testid='search_button'
           >
             <img
               src={icon}

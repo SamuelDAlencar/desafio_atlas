@@ -1,14 +1,17 @@
 # 🚛 Desafio da Atlas - Github user search
 
-Teste front-end end da Atlas que consiste em uma aplicação que permite buscar um usuário real do github e listar seus repositórios
+Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/){:target="_blank" rel="noopener"} que consiste em uma aplicação que permite buscar um usuário real do github e listar seus repositórios
 
-## 🧰 Tecnologias e bibliotecas utilizadas
+## 🧰 Linguagens e bibliotecas utilizadas
 
 - Javascript
-- React
+- HTML
+- CSS
+- [React](https://www.npmjs.com/package/react) (base da aplicação criada via `npx create-react-app`)
   - [React-router-dom](https://www.npmjs.com/package/react-router-dom)
   - [React-Toastify](https://www.npmjs.com/package/react-toastify)
--
+- [Axios](https://www.npmjs.com/package/axios)
+- [Eslint](https://www.npmjs.com/package/eslint)
 
 ## 🚀 Começando
 

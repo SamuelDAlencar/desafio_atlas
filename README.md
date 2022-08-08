@@ -1,6 +1,6 @@
 # 🚛 Desafio da Atlas - Github user search
 
-Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em uma aplicação que permite buscar um usuário real do github e listar seus repositórios
+Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/){:target="_blank" rel="noopener"} que consiste em uma aplicação que permite buscar um usuário real do github e listar seus repositórios
 
 ## 🧰 Linguagens e bibliotecas utilizadas
 
@@ -15,7 +15,7 @@ Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em um
 
 ## 🚀 Começando
 
-Para clonar o projeto e testa-lo em sua máquina, basta rodar o seguinte comando no terminal: `git clone git@github.com:SamuelDAlencar/desafio_atlas.git`
+Para clonar o projeto e obter acesso ao código em sua máquina, basta rodar o seguinte comando no terminal: `git clone git@github.com:SamuelDAlencar/desafio_atlas.git`
 
 ### 📋 Pré-requisitos
 

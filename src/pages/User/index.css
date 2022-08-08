@@ -1,11 +1,13 @@
 .user_main {
   display: flex;
   justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .user_profile_section {
   margin: 30px 50px 50px;
-  width: 50%;
+  width: 40%;
   max-width: 280px;
   border-bottom: 0.1px solid #2a2d30;
   height: fit-content;
@@ -17,7 +19,7 @@
 }
 
 .user_thumb_img {
-  width: 40%;
+  width: 30%;
   border-radius: 50%;
   max-width: 340px;
   border: 1px solid #4e5053;
@@ -26,7 +28,7 @@
 
 .user_name_h1 {
   color: #c9d1d9;
-  margin: 130% 0 1%;
+  margin: 340px 0 0 0;
 }
 
 .user_username_p {
@@ -91,7 +93,7 @@
 }
 
 .user_reps_section {
-  width: 50%;
+  width: 60%;
   margin-top: 70px;
 }
 
@@ -109,7 +111,7 @@
   border-radius: 15px 15px 0 0;
   padding: 1.5%;
   width: fit-content;
-  margin-left: 50%;
+  margin-left: 40%;
   display: flex;
   align-items: center;
   transition: all 0.1s ease-in-out 0s;
@@ -158,7 +160,7 @@
 
 .user_repTopics_section {
   display: flex;
-  margin: 5% 0 1%;
+  margin: 3% 0 0;
 }
 
 .user_repTopic_p {

@@ -20,10 +20,11 @@ Para clonar o projeto e obter acesso ao código em sua máquina, rode o seguinte
 Caso queira acessar a aplicação somente no browser: https://atlas-test-front.herokuapp.com/
 
 - Na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
-> teste
 
 ## 📦 Desenvolvimento
 
 - A aplicação foi feita com a intenção de ser um clone fiel do Github Darkmode
 - Notificações de erro e avisos fazem parte da biblioteca [React-Toastify](https://www.npmjs.com/package/react-toastify)
 - Projeto desenvolvido com o padrão de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Branches nomeadas em inglês, mas commits feitos em Português
+- Todos os SVGs utilizados foram retirados diretamente da página oficial do [Github](https://github.com/)

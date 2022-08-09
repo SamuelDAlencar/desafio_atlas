@@ -6,8 +6,9 @@ import App from '../App';
 import renderWithRouter from './helpers/renderWithRouter';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
-import mockValidUser from './mocks/validUser';
 import mockInvalidUser from './mocks/invalidUser';
+// import mockValidUser from './mocks/validUser';
+// import fetchUser from '../utils/fetchUser';
 
 describe('Home - Página de pesquisa', () => {
   let mock;
@@ -68,27 +69,26 @@ describe('Home - Página de pesquisa', () => {
   });
 
 
-  it('Testa se há um input de busca em que, caso seja passado um usuário válido, a página redireciona o usuário para a tela de perfil', async () => {
-    renderWithRouter(<App />);
+  // it('Testa se há um input de busca em que, caso seja passado um usuário válido, a página redireciona o usuário para a tela de perfil', async () => {
+  //   renderWithRouter(<App />);
 
-    mock.onGet('https://api.github.com/users/user123').reply(200, mockValidUser);
+  //   mock.onGet('https://api.github.com/users/user123').reply(200, mockValidUser);
+    
+  //   const input = screen.getByTestId('search_input');
+  //   const searchButton = screen.getByTestId('search_button');
+  //   const user = 'user123';
 
-    const input = screen.getByTestId('search_input');
-    const searchButton = screen.getByTestId('search_button');
-    const user = 'user123';
+  //   expect(input).toBeInTheDocument();
+  //   expect(input).toBeVisible();
 
-    expect(input).toBeInTheDocument();
-    expect(input).toBeVisible();
+  //   userEvent.type(input, user);
+  //   expect(input).toHaveValue(user);
 
-    userEvent.type(input, user);
-    expect(input).toHaveValue(user);
+  //   userEvent.click(searchButton);
 
-    userEvent.click(searchButton);
+  //   const repositoriesField = await screen.findByText('Repositories');
 
-    const repositoriesField = await screen.findByText('Repositories');
-
-    expect(repositoriesField).toBeInTheDocument();
-
-  });
+  //   expect(repositoriesField).toBeInTheDocument();
+  // });
 });
 

@@ -55,3 +55,7 @@ docker-compose up -d
 - Branches nomeadas em inglês, mas commits feitos em Português
 - Todos os SVGs utilizados foram retirados diretamente da página oficial do [Github](https://github.com/)
 - Gerenciamento de estado da aplicação feito utilizando ContextAPI
+
+## 🛠 Testes (Em construção)
+
+Cobertura de testes ainda está sendo implementada, mas caso queira rodar os testes já criados, basta executar o comando `npm test`

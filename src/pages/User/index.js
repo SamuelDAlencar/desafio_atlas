@@ -45,8 +45,8 @@ export default function User() {
     // Somente renderiza as informações quando todo o conteúdo do perfil for carregado
     user && (
       <main className='user_main' data-testid='user_main_page'>
-        <header className='user_header'>
-          <h3 className='user_header_h3'>
+        <header className='user_header' data-testid='user_header'>
+          <h3 className='user_header_h3' data-testid='user_header_h3'>
             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="user_header_svg">
               <path fillRule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
             </svg>
@@ -54,12 +54,17 @@ export default function User() {
           </h3>
         </header>
 
-        <section className='user_profile_section'>
-          <img alt='Profile_thumb' src={user.avatar_url} className='user_thumb_img' />
-          <h1 className='user_name_h1'>{user.name}</h1>
-          <p className='user_username_p'>{user.login}</p>
+        <section className='user_profile_section' data-testid='user_profile_section'>
+          <img
+            alt='Profile_thumb'
+            src={user.avatar_url}
+            className='user_thumb_img'
+            data-testid='user_profile_thumb'
+          />
+          <h1 className='user_name_h1' data-testid='user_profile_name'>{user.name}</h1>
+          <p className='user_username_p' data-testid='user_profile_login'>{user.login}</p>
           <button className='user_follow_button'>Follow</button>
-          <p className='user_bio_p'>{user.bio}</p>
+          <p className='user_bio_p' data-testid='user_profile_bio'>{user.bio}</p>
           <section className='user_follow_section'>
             {/*
             -> TODOS os SVGs utilizados nesta página foram retirados diretamente do Github
@@ -69,12 +74,14 @@ export default function User() {
             </svg>
             <p
               className='user_follow_p'
+              data-testid='user_profile_followers'
             >
               <b>{user.followers}</b> followers
             </p>
             <span>&nbsp;·&nbsp;</span>
             <p
               className='user_follow_p'
+              data-testid='user_profile_following'
             >
               <b>{user.following}</b> following
             </p>
@@ -112,7 +119,10 @@ export default function User() {
             </section>)}
         </section>
 
-        <section className='user_reps_section'>
+        <section 
+          className='user_reps_section'
+          data-testid='user_reps_section'
+        >
           {repositories
             && repositories.map((repository) => {
               return <Repository

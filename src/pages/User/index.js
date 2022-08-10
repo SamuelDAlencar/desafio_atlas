@@ -44,7 +44,7 @@ export default function User() {
   return (
     // Somente renderiza as informações quando todo o conteúdo do perfil for carregado
     user && (
-      <main className='user_main'>
+      <main className='user_main' data-testid='user_main_page'>
         <header className='user_header'>
           <h3 className='user_header_h3'>
             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" className="user_header_svg">

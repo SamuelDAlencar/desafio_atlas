@@ -58,9 +58,9 @@ docker-compose up -d
 - Todos os SVGs utilizados foram retirados diretamente da página oficial do [Github](https://github.com/)
 - Gerenciamento de estado da aplicação feito utilizando ContextAPI
 
-## 🛠 Testes (Em construção)
+## 🛠 Testes
 
-Cobertura de testes ainda está sendo implementada, mas caso queira rodar os testes já criados, basta executar o comando `npm test`
+Aplicação testada via testes unitários. Comando de testes: `npm test`
 
 # [🇺🇸 English]
 
@@ -120,9 +120,6 @@ docker-compose up -d
 - All SVGs used were taken directly from the official [Github](https://github.com/) page
 - Application state management using ContextAPI
 
-## 🛠 Testing (Under construction)
+## 🛠 Testing
 
-Test coverage is still being implemented, but if you want to run the tests already created, just run the `npm test` command
-
-
-Translated with www.DeepL.com/Translator (free version)
+Application tested via unit tests. Test command: `npm test`.

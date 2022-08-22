@@ -1,5 +1,7 @@
 # 🚛 Desafio da Atlas - Github user search
 
+# [🇧🇷 Portuguese]
+
 Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em uma aplicação que permite buscar um usuário real do github e listar seus repositórios
 
 ## 🚀 Começando
@@ -59,3 +61,68 @@ docker-compose up -d
 ## 🛠 Testes (Em construção)
 
 Cobertura de testes ainda está sendo implementada, mas caso queira rodar os testes já criados, basta executar o comando `npm test`
+
+# [🇺🇸 English]
+
+Front end challenge of [AtlasGR](https://www.atlasgr.com.br/) which consists of an application that allows you to search for a real github user and list their repositories
+
+## 🚀 Getting Started
+
+**If you want to access the application only in the browser: https://atlas-test-front.herokuapp.com/**
+
+Running the project on localhost **without Docker**
+
+```
+// Clone the project on your machine
+git clone git@github.com:SamuelDAlencar/desafio_atlas.git
+
+// Install the dependencies
+npm install
+
+// Start the application on port 3000 (http://localhost:3000/)
+npm start
+```
+
+Run the project on localhost **using Docker**
+
+```
+// Clone the project on your machine
+git clone git@github.com:SamuelDAlencar/desafio_atlas.git
+
+// Raise the container already initializing the application on the same port 3000
+docker-compose up
+
+// If you want to run the container decoupled
+docker-compose up -d
+```
+
+> If you get an error after running `npm start` or at the end of `docker-compose up`, make sure there is no application running on port `3000`. 
+
+- Page behavior:** in the initial screen, just type the username of the user you want to list the repositories, and then you will be redirected to the page where the public repositories of the searched user will be listed
+
+## 🧰 Built with
+
+- Javascript - Language used for development
+- HTML - Markup language
+- CSS - Markup language
+- [React](https://www.npmjs.com/package/react) (application base created via `npx create-react-app`)
+  - [React-router-dom](https://www.npmjs.com/package/react-router-dom) - Application route management
+  - [React-Toastify](https://www.npmjs.com/package/react-toastify) - Triggering errors and notifications
+- [Axios](https://www.npmjs.com/package/axios) - Request fulfillment library
+- [Eslint](https://www.npmjs.com/package/eslint) - Linter for maintaining a clean development pattern
+
+## 📦 Development
+
+- The application was made with the intention of being a faithful clone of the Darkmode Github
+- Error notifications and warnings are part of the [React-Toastify] library (https://www.npmjs.com/package/react-toastify)
+- Project developed with the [Conventional Commits] pattern (https://www.conventionalcommits.org/en/v1.0.0/)
+- Branches named in English, but commits done in Portuguese
+- All SVGs used were taken directly from the official [Github](https://github.com/) page
+- Application state management using ContextAPI
+
+## 🛠 Testing (Under construction)
+
+Test coverage is still being implemented, but if you want to run the tests already created, just run the `npm test` command
+
+
+Translated with www.DeepL.com/Translator (free version)

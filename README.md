@@ -1,4 +1,4 @@
-# 🚛 Desafio da Atlas - Github user search
+# 🔍 github_user_clone
 
 # [🇧🇷 Portuguese]
 

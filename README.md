@@ -38,7 +38,7 @@ docker-compose up -d
 
 - **Comportamento da página:** na tela incial, basta digitar o username do usuário que você deseja listar os repositórios, e então será redirecionado a pagina em que serão listados os repositórios publicos do usuário pesquisado
 
-## 🧰 Construído com
+## 🧰 Construído com:
 
 - Javascript - Linguagem utilizada para desenvolvimento
 - HTML - Linguagem de marcação
@@ -58,9 +58,9 @@ docker-compose up -d
 - Todos os SVGs utilizados foram retirados diretamente da página oficial do [Github](https://github.com/)
 - Gerenciamento de estado da aplicação feito utilizando ContextAPI
 
-## 🛠 Testes
+## 👷‍♂️ Testes
 
-Aplicação testada via testes unitários. Comando de testes: `npm test`
+Neste projeto foram feitos testes unitários, para testar a aplicação, rode o comando `npm test`
 
 <hr />
 
@@ -104,7 +104,7 @@ docker-compose up -d
 
 - Page behavior:** in the initial screen, just type the username of the user you want to list the repositories, and then you will be redirected to the page where the public repositories of the searched user will be listed
 
-## 🧰 Built with
+## 🧰 Built with:
 
 - Javascript - Language used for development
 - HTML - Markup language
@@ -124,6 +124,6 @@ docker-compose up -d
 - All SVGs used were taken directly from the official [Github](https://github.com/) page
 - Application state management using ContextAPI
 
-## 🛠 Testing
+## 👷‍♂️ Testing
 
-Application tested via unit tests. Test command: `npm test`.
+In this project unit tests were performed, to test the application, run the `npm test` command

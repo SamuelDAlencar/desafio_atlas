@@ -47,7 +47,7 @@ docker-compose up -d
   - [React-router-dom](https://www.npmjs.com/package/react-router-dom) - Gerenciamento de rotas da aplicação
   - [React-Toastify](https://www.npmjs.com/package/react-toastify) - Disparo de erros e notificações
 - [Axios](https://www.npmjs.com/package/axios) - Biblioteca para efetuar requisições
-- [Eslint](https://www.npmjs.com/package/eslint) - Linter para manter um padrão de desenvolvimento limpo
+- [Eslint](https://www.npmjs.com/package/eslint) - Ferramenta utilizada para manter um padrão de código uniforme
 
 ## 📦 Desenvolvimento
 
@@ -113,7 +113,7 @@ docker-compose up -d
   - [React-router-dom](https://www.npmjs.com/package/react-router-dom) - Application route management
   - [React-Toastify](https://www.npmjs.com/package/react-toastify) - Triggering errors and notifications
 - [Axios](https://www.npmjs.com/package/axios) - Request fulfillment library
-- [Eslint](https://www.npmjs.com/package/eslint) - Linter for maintaining a clean development pattern
+- [Eslint](https://eslint.org/) - Tool used to maintain a uniform code pattern
 
 ## 📦 Development
 

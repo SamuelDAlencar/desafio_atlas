@@ -62,6 +62,7 @@ docker-compose up -d
 
 Aplicação testada via testes unitários. Comando de testes: `npm test`
 
+<hr />
 # [🇺🇸 English]
 
 Front end challenge of [AtlasGR](https://www.atlasgr.com.br/) which consists of an application that allows you to search for a real github user and list their repositories

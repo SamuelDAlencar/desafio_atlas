@@ -1,6 +1,6 @@
-# 🔍 github_user_clone
-
 # [🇧🇷 Português]
+
+# 🔍 github_user_clone
 
 Teste front-end end da [AtlasGR](https://www.atlasgr.com.br/) que consiste em uma aplicação que permite buscar um usuário real do github e listar seus repositórios
 
@@ -65,6 +65,8 @@ Aplicação testada via testes unitários. Comando de testes: `npm test`
 <hr />
 
 # [🇺🇸 English]
+
+# 🔍 github_user_clone
 
 Front end challenge of [AtlasGR](https://www.atlasgr.com.br/) which consists of an application that allows you to search for a real github user and list their repositories
 

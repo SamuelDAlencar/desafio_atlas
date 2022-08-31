@@ -79,9 +79,7 @@ Front-end application that lets you search for a real github user and list their
 
 ## 🧰 Built with:
 
-- Javascript - Language used for development
-- HTML - Markup language
-- CSS - Markup language
+- [Javascript](https://www.javascript.com/) - Language used for development
 - [React](https://www.npmjs.com/package/react) (application base created via `npx create-react-app`)
   - [React-router-dom](https://www.npmjs.com/package/react-router-dom) - Application route management
   - [React-Toastify](https://www.npmjs.com/package/react-toastify) - Triggering errors and notifications

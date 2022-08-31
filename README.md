@@ -31,7 +31,7 @@ Neste projeto foram feitos testes unitários, para testar a aplicação, rode o 
 
 ## 👨‍💻 Acesse o projeto
 
-**Acesse a aplicação no browser: https://atlas-test-front.herokuapp.com/**
+**Acesse a aplicação no browser [aqui](https://mini-gh-user-search.herokuapp.com/)**
 
 ## 💻 Pré-requisitos
 

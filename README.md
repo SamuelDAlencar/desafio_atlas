@@ -13,7 +13,7 @@ Aplicação front-end que permite buscar um usuário real do github e listar seu
 - [Axios](https://www.npmjs.com/package/axios) - Biblioteca para efetuar requisições
 - [Eslint](https://www.npmjs.com/package/eslint) - Ferramenta utilizada para manter um padrão de código uniforme
 
-✅ Status
+## ✅ Status
 
 ***Front-end:***
 

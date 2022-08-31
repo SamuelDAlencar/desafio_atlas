@@ -100,11 +100,11 @@ Front-end application that lets you search for a real github user and list their
 [x] Search page tests 
 [x] User page tests
 
-## 👷♂️ Testing
+## 👷‍♂️ Testing
 
 This project has a **unit tests** coverage, to test the application, run the `npm test` command
 
-## 👨💻 Access the project
+## 👨‍💻 Access the project
 
 **Access the application in the browser: https://atlas-test-front.herokuapp.com/**
 
@@ -140,6 +140,6 @@ No Docker:
 
 > If you get an error after running `npm start` or at the end of `docker-compose up`, make sure there is no application running on port `3000`. 
 
-## 👩💻 Using the application
+## 👨‍💻 Using the application
 
 On the initial screen, just enter the username of the user you want to list the repositories, and then you will be redirected to the page where the public repositories of the searched user will be listed

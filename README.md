@@ -90,13 +90,13 @@ Front-end application that lets you search for a real github user and list their
 
 ***Front-end:***
 
-[x] Search page with an input field that redirects if a valid user is found
-[x] Warning if no user is found
-[x] User page containing the user information
-[x] User page containing all of it's public repositories
-[x] Application similarity with the official Github page
-[x] Search page tests 
-[x] User page tests
+  - [x] Search page with an input field that redirects if a valid user is found
+  - [x] Warning if no user is found
+  - [x] User page containing the user information
+  - [x] User page containing all of it's public repositories
+  - [x] Application similarity with the official Github page
+  - [x] Search page tests 
+  - [x] User page tests
 
 ## 👷‍♂️ Testing
 

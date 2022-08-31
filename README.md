@@ -17,13 +17,13 @@ Aplicação front-end que permite buscar um usuário real do github e listar seu
 
 ***Front-end:***
 
-[x] Página de busca com um campo de pesquisa que redireciona caso encontrado um usuário válido
-[x] Aviso caso não encontre um usuário
-[x] Página de usuário contendo informações do mesmo
-[x] Página de usuário contendo todos os seus repositórios públicos
-[x] Semelhança da aplicação com a página oficial do Github
-[x] Testes da página de busca 
-[x] Testes da página de usuário
+  - [x] Página de busca com um campo de pesquisa que redireciona caso encontrado um usuário válido
+  - [x] Aviso caso não encontre um usuário
+  - [x] Página de usuário contendo informações do mesmo
+  - [x] Página de usuário contendo todos os seus repositórios públicos
+  - [x] Semelhança da aplicação com a página oficial do Github
+  - [x] Testes da página de busca 
+  - [x] Testes da página de usuário
 
 ## 👷‍♂️ Testes
 

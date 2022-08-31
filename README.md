@@ -6,9 +6,7 @@ Aplicação front-end que permite buscar um usuário real do github e listar seu
 
 ## 🧰 Construído com:
 
-- Javascript - Linguagem utilizada para desenvolvimento
-- HTML - Linguagem de marcação
-- CSS - Linguagem de marcação
+- [Javascript](https://www.javascript.com/) - Linguagem utilizada para desenvolvimento
 - [React](https://www.npmjs.com/package/react) (base da aplicação criada via `npx create-react-app`)
   - [React-router-dom](https://www.npmjs.com/package/react-router-dom) - Gerenciamento de rotas da aplicação
   - [React-Toastify](https://www.npmjs.com/package/react-toastify) - Disparo de erros e notificações
